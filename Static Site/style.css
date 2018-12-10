@@ -32,20 +32,53 @@ li a {
     font-size: 20px;
     float: right;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     margin: 1px;
-    background-image: radial-gradient(rgba(76, 166, 166, 60%), rgb(111, 183, 183, 60%));
-    /*border-radius: 5px;*/
+    background-image: linear-gradient(to bottom right,#686896, #000066);
+    border: 2px solid white;
+    border-radius: 8px;
 }
   
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-image: radial-gradient(#247777, #4e8a8a);
     color: white;
     top: -5px;
+}
+
+
+#nav-home:hover:after {
+    content: url(Images/Cursor.png);
+    display: block;
+    position: fixed;
+    top: 13px;
+    right: 430px;
+}
+
+#nav-about:hover:after {
+    content: url(Images/Cursor.png);
+    display: block;
+    position: fixed;
+    top: 13px;
+    right: 341px;
+}
+
+#nav-news:hover:after {
+    content: url(Images/Cursor.png);
+    display: block;
+    position: fixed;
+    top: 13px;
+    right: 256px;
+}
+
+#nav-contact:hover:after {
+    content: url(Images/Cursor.png);
+    display: block;
+    position: fixed;
+    top: 13px;
+    right: 169px;
 }
 
 #about {
