@@ -1,9 +1,6 @@
+/*Update to the body so that there is no space around edge of page*/
 body {
     margin: 0;
-}
-
-#site-img img {
-    width: 100%;
 }
 
 #menu-wrapper {
@@ -13,6 +10,7 @@ body {
     float: right;
 }
 
+/*Navigation styles*/
 ul {
     list-style-type: none;
     margin: 12px 80px 12px 0px;
@@ -41,13 +39,11 @@ li a {
     border: 2px solid white;
     border-radius: 8px;
 }
-  
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
     color: white;
     top: -5px;
 }
-
 
 #nav-home:hover:after {
     content: url(Images/Cursor.png);
@@ -81,6 +77,12 @@ li a:hover {
     right: 169px;
 }
 
+/*Main site image at top of site*/
+#site-img img {
+    width: 100%;
+}
+
+/*Second section "about" styles*/
 #about {
     padding: 40px 80px;
 }
