@@ -85,7 +85,7 @@ li a:hover {
 /*About section updated using flex containers.*/
 .section-header {
     margin: 2% 10%;
-    text-align: left;
+    text-align: center;
     font-size: 6em;
     text-decoration: underline;
 }
@@ -110,4 +110,20 @@ li a:hover {
 
 .flex-text {
     padding: 1em;
+}
+
+/*News section*/
+#news {
+    background-color: rgb(20, 90, 67);
+}
+
+#news .section-header {
+    color: white;
+}
+
+.news-text {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    width: 100%;
 }
